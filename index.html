@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8fafc" />
+  <meta name="description" content="Professional portfolio of an IT graduate and aspiring software / DevOps engineer." />
+  <title>Jagasri | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- <div class="edit-banner" id="editBanner" hidden>
+    <span><strong>Edit mode is on.</strong> Click any highlighted text to change it, then save your changes.</span>
+    <div class="edit-actions">
+      <button class="btn btn-small btn-outline" id="exportBtn" type="button">Export profile JSON</button>
+      <button class="btn btn-small btn-primary" id="saveBtn" type="button">Save changes</button>
+      <button class="icon-btn" id="closeEditBtn" aria-label="Exit edit mode" title="Exit edit mode">×</button>
+    </div> -->
+  </div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Portfolio home"><img
+  class="brand-logo"
+  src="./assets/jagasri-tech-logo.png"
+  alt="Jagasri Technology Logo"
+>
+</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+        <!-- <button class="btn btn-small btn-outline" id="editToggle" type="button">✎ Edit portfolio</button> -->
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        
+        <p class="hello" data-edit="greeting">Hello, I'm</p>
+        <h1><span data-edit="fullName">Jagasri</span></h1>
+        <h2 data-edit="headline">Aspiring Software & DevOps Engineer</h2>
+        <p class="hero-description" data-edit="intro">I build practical web applications and explore cloud infrastructure, automation, and CI/CD. I enjoy turning ideas into reliable, user-friendly solutions and learning by building real projects.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#contact">Let's connect</a></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer profile illustration">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-card-top"><span class="window-dots"><i></i><i></i><i></i></span><span>developer.profile</span><span>•••</span></div>
+          <div class="avatar">JS</div>
+          <div class="profile-name" data-edit="cardName">Jagasri</div>
+          <div class="profile-role" data-edit="cardRole">IT Graduate</div>
+          <div class="code-lines"><p><span class="code-purple">const</span> <span class="code-blue">passion</span> = <span class="code-green">"building"</span>;</p><p><span class="code-purple">const</span> <span class="code-blue">mindset</span> = <span class="code-green">"keep learning"</span>;</p><p><span class="code-purple">return</span> <span class="code-green">"impactful work"</span>;</p></div>
+          <div class="profile-tags"><span>DevOps</span><span>React</span><span>AWS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>From Code to Cloud.<br><span class="accent">From Ideas to Impact.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-copy"><p data-edit="aboutText">I’m an Information Technology graduate with hands-on project experience across full-stack development and cloud/DevOps tooling. I’ve worked with React, Java, Spring Boot, MySQL, Docker, Jenkins, Terraform, AWS, and GitHub Actions through practical projects and guided learning.</p><a class="text-link" href="#contact">Let’s Connect <span>↗</span></a></div>
+          <div class="about-stats">
+            <div class="stat-card"><span class="stat-number" data-edit="statProjects">4+</span><span class="stat-label">Hands-on projects</span></div>
+            <div class="stat-card"><span class="stat-number" data-edit="statStack">10+</span><span class="stat-label">Tools & technologies explored</span></div>
+            <div class="stat-card stat-wide"><span class="stat-number" data-edit="statMindset">Always learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading centered"><p class="eyebrow">MY TOOLKIT</p><h2>Skills & technologies</h2><p class="section-subtitle">Tools I’ve used in projects and hands-on practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon purple">💻</div><h3>Programming & Web</h3><div class="tag-list" data-edit-list="skillsWeb"><span>Java</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>React.js</span></div></article>
+        <article class="skill-card"><div class="skill-icon teal">▣</div><h3>Backend & Database</h3><div class="tag-list" data-edit-list="skillsBackend"><span>Spring Boot</span><span>REST APIs</span><span>Node.js / Express</span><span>MySQL</span><span>Maven</span></div></article>
+        <article class="skill-card"><div class="skill-icon orange">☁️</div><h3>Cloud & DevOps</h3><div class="tag-list" data-edit-list="skillsDevops"><span>AWS</span><span>Docker</span><span>Jenkins</span><span>Terraform</span><span>GitHub Actions</span><span>CI/CD</span></div></article>
+        <article class="skill-card"><div class="skill-icon blue">⌁</div><h3>Developer tools</h3><div class="tag-list" data-edit-list="skillsTools"><span>Git & GitHub</span><span>Linux</span><span>SonarQube</span><span>VS Code</span><span>Spring Tool Suite</span></div></article>
+      </div>
+      
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects I’ve built</h2></div>
+        <div class="projects-grid">
+          <article class="project-card"><div class="project-art art-service">
+  <img src="./assets/vehicle-service-booking.png"
+       alt="Vehicle Service Booking Website"
+       style="width:100%; height:100%; object-fit:contain; display:block;">
+  <span class="art-label">VEHICLE SERVICE BOOKING</span>
+</div><div class="project-body"><div class="project-title-row"><h3 data-edit="project1Title">Service Now</h3><a class="project-link" data-link="project1Url" href="#" target="_blank" rel="noreferrer" aria-label="Open Service Now project repository">↗</a></div><p data-edit="project1Desc">A vehicle service booking platform designed to help customers explore services and book appointments through a clean web interface.</p><div class="project-tags" data-edit-list="project1Tags"><span>React</span><span>Spring Boot</span><span>MySQL</span></div></div></article>
+          <article class="project-card"><div class="project-art art-habit">
+  <img src="./assets/habit-tracker.png"
+       alt="Habit Tracker Application"
+       style="width:100%; height:100%; object-fit:contain; display:block;">
+  <span class="art-label">HABIT TRACKER APPLICATION</span>
+</div><div class="project-body"><div class="project-title-row"><h3 data-edit="project2Title">HabitApp</h3><a class="project-link" data-link="project2Url" href="#" target="_blank" rel="noreferrer" aria-label="Open HabitApp project repository">↗</a></div><p data-edit="project2Desc">A habit-tracking application focused on creating, managing, and tracking daily habits with a Spring Boot backend.</p><div class="project-tags" data-edit-list="project2Tags"><span>Java 21</span><span>Spring Boot</span><span>Maven</span><span>Docker</span></div></div></article>
+          <article class="project-card"><div class="project-art art-blog">
+  <img src="./assets/blogreact.png"
+       alt="BlogReact Website"
+       style="width:100%; height:100%; object-fit:contain; display:block;">
+  <span class="art-label">BLOG APPLICATION</span>
+</div><div class="project-body"><div class="project-title-row"><h3 data-edit="project3Title">BlogReact</h3><a class="project-link" data-link="project3Url" href="#" target="_blank" rel="noreferrer" aria-label="Open BlogReact project repository">↗</a></div><p data-edit="project3Desc">A blog application with a React frontend and Node.js/Express backend, configured with MySQL and Docker for local deployment.</p><div class="project-tags" data-edit-list="project3Tags"><span>React</span><span>Node.js</span><span>MySQL</span><span>Docker</span></div></div></article>
+          <article class="project-card"><div class="project-art art-cloud">
+  <img src="./assets/terraform-aws.png"
+       alt="AWS Terraform Apply successful in GitHub Actions"
+       style="width:100%; height:100%; object-fit:contain; display:block;">
+  <span class="art-label">AWS INFRASTRUCTURE AUTOMATION</span>
+</div><div class="project-body"><div class="project-title-row"><h3 data-edit="project4Title">AWS Infrastructure Automation</h3><a class="project-link" data-link="project4Url" href="#" target="_blank" rel="noreferrer" aria-label="Open AWS Terraform project repository">↗</a></div><p data-edit="project4Desc">Terraform infrastructure provisioning with a GitHub Actions workflow for formatting, validation, planning, approval, and deployment.</p><div class="project-tags" data-edit-list="project4Tags"><span>AWS</span><span>Terraform</span><span>GitHub Actions</span><span>IaC</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading"><p class="eyebrow">THE FOUNDATION</p><h2>Education & growth</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-top"><h3 data-edit="degree">B.Tech — Information Technology</h3><span class="timeline-date" data-edit="gradYear">2022 – 2026</span></div><p class="timeline-place" data-edit="college">Sri Krishna College of Technology</p><p data-edit="educationDesc">Built a foundation in software development, databases, web technologies, and IT systems. CGPA - 7.14</p></div></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-top"><h3 data-edit="learningTitle">Project-based technical learning</h3><span class="timeline-date" data-edit="learningDate">2026</span></div><p class="timeline-place" data-edit="learningPlace">Hands-on labs & guided training</p><p data-edit="learningDesc">Practiced containerization, CI/CD pipelines, infrastructure as code, cloud fundamentals, and code-quality workflows through project work.</p></div></div>
+      </div>
+      <div class="resume-strip"><div><h3>EXPLORE MY PROFESSIONAL PROFILE</h3></div><a class="btn btn-primary" id="resumeLink" data-link="resume" href="#" target="_blank" rel="noreferrer">View resume <span>↗</span></a></div>
+    </section>
+
+   <section class="section contact-section" id="contact"><div class="container contact-grid"><div><p class="eyebrow">LET'S CONNECT</p><h2>Let’s build something<br>meaningful together</h2><p class="contact-intro" data-edit="contactIntro">I’m open to entry-level IT opportunities, software development roles, and collaborative projects where I can apply my technical skills, learn new technologies, and contribute to a team.</p><a class="email-link" data-link="email" href="mailto:your.jagasrimvl@gamil.com"><span data-edit="emailText">jagasrimvl.com</span> </a></div><div class="contact-card"><h3>Find me online</h3><a data-link="github" href="https://github.com/jagasri3" target="_blank" rel="noreferrer"><span class="social-icon">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.99 1.98 3.05 1.98.43 0 .88-.06 1.34-.19.1-.72.4-1.21.73-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.62 5.24-5.11 5.51.4.35.76 1.02.76 2.06v3.05c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/>
+  </svg>
+</span><span><b>GitHub</b><small data-edit="githubText">github.com/jagasri3</small></span><span class="external-arrow">↗</span></a><a data-link="linkedin" href="https://www.linkedin.com/in/jagasri/" target="_blank" rel="noreferrer"><span class="social-icon">in</span><span><b>LinkedIn</b><small data-edit="linkedinText">linkedin.com/in/jagasri3</small></span><span class="external-arrow">↗</span></a><a data-link="email" href="mailto:your.email@example.com"><span class="social-icon">✉</span><span><b>Email</b><small data-edit="emailText2">jagasrimvl@gmail.com</small></span><span class="external-arrow">↗</span></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span data-edit="footerName">Jagasri</span><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
